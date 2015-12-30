@@ -1,0 +1,10 @@
+.vs/
+Build/
+Intermediate/
+ipch/
+Prebuilt/
+Prebuilt-x86/
+KeyDLL/Debug/
+KeyDLL/Release/
+KeyDLL/x64/
+*.sdf

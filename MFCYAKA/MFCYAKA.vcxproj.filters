@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Private\MFCYAKA.cpp" />
+    <ClCompile Include="Source\Private\MFCYAKADlg.cpp" />
+    <ClCompile Include="Source\Private\stdafx.cpp" />
+    <ClCompile Include="Source\Private\Core\GL.cpp" />
+    <ClCompile Include="Source\Private\Core\KeyTimer.cpp" />
+    <ClCompile Include="Source\Private\WaveSim\WaveSim.cpp" />
+    <ClCompile Include="Source\Private\YAKASettings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Classes\MFCYAKA.h" />
+    <ClInclude Include="Source\Classes\MFCYAKADlg.h" />
+    <ClInclude Include="Source\Classes\stdafx.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Source\Classes\Core\GL.h" />
+    <ClInclude Include="Source\Classes\Core\KeyTimer.h" />
+    <ClInclude Include="Source\Classes\Core\Renderer.h" />
+    <ClInclude Include="Source\Classes\WaveSim\WaveSim.h" />
+    <ClInclude Include="Source\Classes\YAKASettings.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YAKA.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\YAKA.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\YAKA.rc2" />
+  </ItemGroup>
+</Project>
