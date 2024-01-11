@@ -8,3 +8,4 @@ KeyDLL/Debug/
 KeyDLL/Release/
 KeyDLL/x64/
 *.sdf
+*.VC.db
